@@ -11,7 +11,7 @@ def newMaven()
 def newDeploy(ip,contextpath)
 {
   
-deploy adapters: [tomcat9(credentialsId: 'f4a8fd35-49f8-40fb-853d-f55a9ab1d552', path: '', url: "${ip}")], contextPath: "${contextpath}", war: '**/*.war'
+deploy adapters: [tomcat9(credentialsId: '43d974b7-ee84-4df4-91d1-0c63d27c091b', path: '', url: "${ip}")], contextPath: "${contextpath}", war: '**/*.war'
 }
 
 
